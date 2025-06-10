@@ -3,11 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimun-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaliop Poland</title>
+
+    <link rel="stylesheet" href="/src/styles/scss/style.scss">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <header>
+      <picture>
+        <source srcset="/img/logo.webp">
+        <img width="100" height="100" src="/img/logo.jpg" alt="Kaliop Poland Logo">
+      </picture>
+      <h1>Kaliop Poland</h1>
+      <p>403 polubienia 458 obserujący</p>
+      <button>
+        Wyślij wiadomość
+      </button>
+      <button>
+        Lubisz to
+      </button>
+      <button>
+        Szukaj
+      </button>
+
+    </header>
+    <main>
+
+      <nav>
+
+      </nav>
+
+      <section id="contact" class="contact">
+        <header >
+          <h1>Prezentacja</h1>
+        </header>
+        <p>Dostawca rozwiązań IT dla biznesu, 20 lat doświadczeń na rynku,
+          setki zrealizowanych projektów
+        </p>
+        <address class="contact__address">
+          <ul class="contact__address-list">
+            <li class="contact__address-list-item">
+              <b>Strona</b> Usługi bizensowe
+            </li>
+            <li class="contact__address-list-item">
+              Portowa 13B, Słupskie, Polska
+            </li>
+            <li class="contact__address-list-item">
+              <a class="contact__address-list-item-value" href="tel:598413714">59 841 37 14</a>
+            </li>
+            <li class="contact__address-list-item">
+              <a class="contact__address-list-item-value" href="mailto:biuro@kaliop.pl">biuro@kaliop.pl</a>
+            </li>
+            <li >
+              <a href="https://kaliop.pl">kaliop.pl</a>
+            </li >
+            <li >
+              Zamknięte teraz
+            </li>
+            <li>
+              Jeszcze nie oceniono (0 opinii)
+            </li>
+          </ul>
+        </address>
+
+      </section>
+
+    </main>
+
+
   </body>
 </html>
